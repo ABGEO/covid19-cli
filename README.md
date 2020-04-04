@@ -1,6 +1,8 @@
 # covid19-cli
 Simple CLI tool for displaying COVID-19 statistics.
 
+![Screenshot](https://i.imgur.com/q2x1GZZ.png)  
+
 [![GitHub license](https://img.shields.io/github/license/ABGEO07/covid19-cli.svg)](https://github.com/ABGEO07/covid19-cli/blob/master/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ABGEO07/covid19-cli.svg)](https://github.com/ABGEO07/covid19-cli/releases)
 [![Packagist Version](https://img.shields.io/packagist/v/abgeo/covid19-cli.svg "Packagist Version")](https://packagist.org/packages/abgeo/covid19-cli "Packagist Version")
