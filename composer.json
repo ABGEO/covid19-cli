@@ -1,0 +1,37 @@
+{
+  "name": "abgeo/covid19-cli",
+  "description": "Simple CLI tool for displaying COVID-19 statistics.",
+  "keywords": [
+    "COVID-19",
+    "CoronVirus",
+    "CLI",
+    "COVID CLI",
+    "COVID-19 CLI"
+  ],
+  "license": "MIT",
+  "homepage": "http://github.com/ABGEO07/covid19-cli",
+  "authors": [
+    {
+      "name": "Temuri Takalandze",
+      "email": "me@abgeo.dev"
+    }
+  ],
+  "bin": [
+    "bin/covid"
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^7.1",
+    "symfony/console": "^5.0",
+    "guzzlehttp/guzzle": "^7.0@dev",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "ABGEO\\CovId\\": "src/"
+    }
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^5.1@dev"
+  }
+}
