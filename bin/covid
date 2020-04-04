@@ -14,7 +14,11 @@ use Symfony\Component\Console\Application;
 use ABGEO\COVID\Command\CountriesCommand;
 use ABGEO\COVID\Command\DisplayCommand;
 
-require dirname(__DIR__).'/vendor/autoload.php';
+if (file_exists(__DIR__.'/../../../autoload.php')) {
+    require __DIR__.'/../../../autoload.php';
+} else {
+    require dirname(__DIR__).'/vendor/autoload.php';
+}
 
 $app = new Application('COVID-19 CLI');
 $app->addCommands(
