@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Exception;
+namespace ABGEO\COVID\Exception;
 
 use Throwable;
 
@@ -17,7 +17,7 @@ use Throwable;
  * Class InvalidSlugException.
  *
  * @categhory Exception
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class InvalidSlugException extends \Exception
 {

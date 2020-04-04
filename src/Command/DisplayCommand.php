@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Command;
+namespace ABGEO\COVID\Command;
 
-use ABGEO\CovId\Exception\InvalidSlugException;
-use ABGEO\CovId\Service\StatisticsService;
+use ABGEO\COVID\Exception\InvalidSlugException;
+use ABGEO\COVID\Service\StatisticsService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;
@@ -23,7 +23,7 @@ use Symfony\Component\Console\Style\SymfonyStyle;
  * Class DisplayCommand.
  *
  * @categhory Command
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class DisplayCommand extends Command
 {

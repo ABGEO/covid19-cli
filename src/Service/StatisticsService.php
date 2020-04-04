@@ -9,15 +9,15 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Service;
+namespace ABGEO\COVID\Service;
 
-use ABGEO\CovId\Model\CountryData;
+use ABGEO\COVID\Model\CountryData;
 
 /**
  * Class StatisticsService.
  *
  * @categhory Service
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class StatisticsService
 {
@@ -34,7 +34,7 @@ class StatisticsService
     /**
      * @param string $slug
      * @return CountryData
-     * @throws \ABGEO\CovId\Exception\InvalidSlugException
+     * @throws \ABGEO\COVID\Exception\InvalidSlugException
      */
     public function getCountryYesterday(string $slug)
     {
@@ -55,7 +55,7 @@ class StatisticsService
     /**
      * @param string $slug
      * @return CountryData
-     * @throws \ABGEO\CovId\Exception\InvalidSlugException
+     * @throws \ABGEO\COVID\Exception\InvalidSlugException
      */
     public function getCountryLive(string $slug)
     {

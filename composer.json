@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ABGEO\\CovId\\": "src/"
+      "ABGEO\\COVID\\": "src/"
     }
   },
   "require-dev": {

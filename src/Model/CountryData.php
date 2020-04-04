@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Model;
+namespace ABGEO\COVID\Model;
 
 /**
  * Class CountryData.
  *
  * @categhory Model
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class CountryData
 {

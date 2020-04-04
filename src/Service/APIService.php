@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Service;
+namespace ABGEO\COVID\Service;
 
-use ABGEO\CovId\Exception\InvalidSlugException;
+use ABGEO\COVID\Exception\InvalidSlugException;
 use GuzzleHttp\Client;
 use GuzzleHttp\Exception\GuzzleException;
 
@@ -19,7 +19,7 @@ use GuzzleHttp\Exception\GuzzleException;
  * Class APIService.
  *
  * @categhory Service
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class APIService
 {

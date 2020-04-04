@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ABGEO\CovId\Command;
+namespace ABGEO\COVID\Command;
 
-use ABGEO\CovId\Service\APIService;
+use ABGEO\COVID\Service\APIService;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Helper\Table;
 use Symfony\Component\Console\Input\InputInterface;
@@ -21,7 +21,7 @@ use Symfony\Component\Console\Output\OutputInterface;
  * Class CountriesCommand.
  *
  * @categhory Command
- * @package   ABGEO\CovId
+ * @package   ABGEO\COVID
  */
 class CountriesCommand extends Command
 {

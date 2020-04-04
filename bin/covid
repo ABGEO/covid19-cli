@@ -11,8 +11,8 @@
  */
 
 use Symfony\Component\Console\Application;
-use ABGEO\CovId\Command\CountriesCommand;
-use ABGEO\CovId\Command\DisplayCommand;
+use ABGEO\COVID\Command\CountriesCommand;
+use ABGEO\COVID\Command\DisplayCommand;
 
 require dirname(__DIR__).'/vendor/autoload.php';
 
