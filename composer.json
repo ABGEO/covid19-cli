@@ -22,8 +22,8 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^7.1",
-    "symfony/console": "^5.0",
-    "guzzlehttp/guzzle": "^7.0@dev",
+    "symfony/console": "^4.0|^5.0",
+    "guzzlehttp/guzzle": "^6.5",
     "ext-json": "*"
   },
   "autoload": {
@@ -32,6 +32,6 @@
     }
   },
   "require-dev": {
-    "symfony/var-dumper": "^5.1@dev"
+    "symfony/var-dumper": "^5.0"
   }
 }
