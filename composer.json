@@ -3,7 +3,7 @@
   "description": "Simple CLI tool for displaying COVID-19 statistics.",
   "keywords": [
     "COVID-19",
-    "CoronVirus",
+    "Corona Virus",
     "CLI",
     "COVID CLI",
     "COVID-19 CLI"
@@ -13,7 +13,8 @@
   "authors": [
     {
       "name": "Temuri Takalandze",
-      "email": "me@abgeo.dev"
+      "email": "me@abgeo.dev",
+      "homepage": "https://abgeo.dev"
     }
   ],
   "bin": [
@@ -23,7 +24,7 @@
   "require": {
     "php": "^7.1",
     "symfony/console": "^4.0|^5.0",
-    "guzzlehttp/guzzle": "^6.5",
+    "guzzlehttp/guzzle": "~6.0",
     "ext-json": "*"
   },
   "autoload": {
@@ -31,7 +32,5 @@
       "ABGEO\\COVID\\": "src/"
     }
   },
-  "require-dev": {
-    "symfony/var-dumper": "^5.0"
-  }
+  "require-dev": {}
 }
